@@ -1,111 +1,168 @@
-<!doctype html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Titre de la page</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="styles.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://kit.fontawesome.com/bb4626516a.js" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <div class="resume">
-            <div class="base">
-              <div class="profile">
-                <div class="photo">
-                  <!--<img src="" /> -->
-                  <i class="fas fa-solid fa-wrench"></i>
-                </div>
-                <div class="info">
-                  <h1 class="name">Youssef Essabery</h1>
-                  <h2 class="job">Mécanicien automobile</h2>
-                </div>
-              </div>
-              <div class="about">
-                <h3>A propos</h3>Je suis à la recherche d'une alternance dans le monde de la mécanique automobile. Je suis motivé et expérimenté.
-              </div>
-              <div class="contact">
-                <h3></h3>
-                <div class="call"><a style="display: flex;flex-direction: column;align-items: center;" href="tel:0762571575"><i class="fas fa-phone"></i><span>07.62.57.15.75</span></a></div>
-                <div class="address"><a style="display: flex;flex-direction: column;align-items: center;" href="https://goo.gl/maps/fiTBGT6Vnhy"><i class="fas fa-map-marker"></i><span style="text-align: center;">Saint-Etienne-du rouvray</span></a>
-                </div>
-                <div class="email"><a style="display: flex;flex-direction: column;align-items: center;" href="mailto:essaberyy6@gmail.com"><i class="fas fa-envelope"></i><span>essaberyy6@gmail.com</span></a></div>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio Youssef Essabery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/bb4626516a.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="is-preload">
 
-              </div>
-             
-            </div>
-            <div class="func" style="display: flex;flex-direction: column;justify-content: space-between;">
-              <div style="display:flex;">
-                <div class="work">
-                  <h3><i class="fa fa-briefcase"></i>Experience</h3>
-                  <ul>
-                    <li><span>Mécanicien auto stagiaire -<br></span><small>Chrys Auto</small><small>Janviers 2023</small></li>
-                    <li><span>Mécanicien auto stagiaire - </span><small>Eurotyres - Garage Autorepar à Saint Maximin </small><small>Décembre 2024</small></li>
-                    <li><span>Stage en développeur web</span><small>Enedis</small><small>Mars 2025</small></li>
-                  
-                  </ul>
-                </div>
-                <div class="edu">
-                  <h3><i class="fa fa-graduation-cap"></i>Formation</h3>
-                  <ul>
-                    <li><span>Henri Wallon<br></span><small></small><small>Saint-Etienne-du Rouvray</small></li>
-                    <li><span>Collége Louise Michel</span><small></small><small>Saint-Etienne-du Rouvray</small></li>
-                    <li><span>Collège Paul Eluard<br></span><small></small><small>Saint-Etienne-du Rouvray</small></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="skills-prog">
-                <h3><i class="fas fa-code"></i>Compétences</h3>
-                <ul>
-                  <li data-percent="80"><span>Pneu</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                  <li data-percent="75"><span>Frein</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                  <li data-percent="100"><span>Vidange</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                  <li data-percent="75"><span>Equilibrage</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                  <li data-percent="70"><span>Filtre a l'huile</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                  <li data-percent="98"><span>Anti crevaison</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                  <li data-percent="98"><span>Nettoyage</span>
-                    <div class="skills-bar">
-                      <div class="bar"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="interests">
-                <h3><i class="fas fa-star"></i>Hobbies</h3>
-                <div class="interests-items">
-                  <div class="art"><i class="fas fa-futbol"></i><span>Foot</span></div>
-                  <div class="art"><i class="fa fa-music"></i><span>Musique</span></div>
-                  <div class="movies"><i class="fa fa-gamepad"></i><span>Jeux video</span></div>
-                  <div class="games"><i class="fas fa-solid fa-car"></i><span>Voyages</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-    </body>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Qui suis-je</a></li>
+					<li><a href="#work">Expérience</a></li>
+					<li><a href="#portfolio">Compétences</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image-profil fit"><img src="images/image.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1><strong>Youssef Essabery</strong>.</h1>
+							</header>
+							<p><strong></strong>Je suis actuellement à la recherche d'une alternance dans le domaine de la mécanique automobile.</p>
+							<a href="#work" class="button large scrolly">Mon expérience</a>
+							<a href="cv/cv.html" target="_blank" class="button large scrolly">Mon CV</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Expérience</h2>
+						<p></p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img class="img-stage" src="images/garage.jpg" />
+								<h3>Stage en mecanique auto</h3>
+							<p>Stage en mecanique a chrys auto a sotteville janviers 2023 </p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img class="img-stage" src="images/garage eurotroy.png" />
+								<h3>Stage en mecanique auto</h3>
+								<p>Stage en mecanique a Eurotyre - Garage Autorepar Saint Maximin décenbre 2024</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img class="img-stage" src="images/enedis.png" />
+								<h3>Concepteur développeur</h3>
+								<p>Stage de 2 semaines chez Enedis Rouen</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p></p>
+						<a href="#portfolio" class="button large scrolly">Mes compétences</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Compétences</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"><img src="images/photo pneu.jpg" alt="" /></div>
+								<h3><div>Pneu</a></h3>
+								<p></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"><img src="images/photo frein.jpg" alt="" /></div>
+								<h3><div>Frein</a></h3>
+								<p></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"><img src="images/vidange photo.webp" alt="" /></div>
+								<h3><div>Vidange</a></h3>
+								<p></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"><img src="images/equilibrage.jpg" alt="" /></div>
+								<h3><div>Equilibrage</div></h3>
+								<p></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"><img src="images/nettoyage.jpg" alt="" /></div>
+								<h3><div>Nettoyage</a></h3>
+								<p></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<div class="image featured"><img src="images/anti crevaison.jpg" alt="" /></div>
+								<h3><div>Anti crevaison</div></h3>
+								<p></p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p></p>
+						<a href="#contact" class="button large scrolly">Me contacter</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<div class="row">
+						<div class="col-12">
+							<hr />
+							<h3>Je suis joignable au </h3>
+							<a href="tel:0762571575" class="icon">0762571575</a>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Youssef Essabery. Tous droits réservés.</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
